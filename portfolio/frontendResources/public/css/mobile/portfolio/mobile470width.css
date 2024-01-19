@@ -1,0 +1,94 @@
+
+
+@media screen and (max-width:470px) {
+
+    /* Main */
+    #mainWrapper{
+        --width:95vw;
+        --width2:425px;
+    }
+
+    .topBarLogoSection{
+        width:150px;
+    }
+
+    .topBarButtonsSection{
+        margin-right:-5px !important;
+    }
+
+    .topBarButtonsSection .button{
+        font-size:1.8em;
+    }
+
+
+    .navMenuContainer{
+        width:90%;
+        max-width:400px;
+    }
+
+    .navMenuContainer .contents{
+        margin-top:200px; 
+    }
+
+    
+    /* About and skill section */
+
+    .sectionTitle {
+        margin-top:10px;
+
+        width:80px;
+        height:35px;
+
+        font-size:.8em;
+    }
+
+
+    .pageAboutSectionContentsContainer > div{
+        width:440px !important;
+    }
+
+
+    .bioContainer .contents{
+        margin-bottom:90px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+
+    /* Main */
+    #mainWrapper{
+        --width:95vw;
+        --width2:390px;
+    }
+
+    /* Home */
+    .homeSectionCenterDiv{
+        grid-template-columns:35% 65%;
+    }
+
+
+    .homeSectionCenterDivPfp{
+        transform: scale(1.3, 1.5);
+    }
+
+
+    .homeSectionCenterDivBioBlocks{
+        width:fit-content;
+        height:60px;
+    }
+
+    .homeSectionCenterDivBioBlocks.first{
+        margin-left:30px;
+    }
+
+    .homeSectionCenterDivBioBlocks.second{
+        margin-left:25px;
+    }
+
+    .homeSectionCenterDivBioBlocks.third{
+        margin-left:20px;
+    }
+
+
+}

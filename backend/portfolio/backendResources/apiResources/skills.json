@@ -1,0 +1,71 @@
+{
+    "0" : {
+        "skillName":"Python",
+        "skillBanner":"/images/skills/python.png",
+        "skillExperienceYears":"4.5 years",
+        "skillExperiencePercent":"90"
+    },
+
+    "1" : {
+        "skillName":"Javascript",
+        "skillBanner":"/images/skills/javascript.png",
+        "skillExperienceYears":"4 years",
+        "skillExperiencePercent":"90"
+    },
+
+    "2" : {
+        "skillName":"HTML5",
+        "skillBanner":"/images/skills/html5.png",
+        "skillExperienceYears":"4 years",
+        "skillExperiencePercent":"85"
+    },
+
+    "3" : {
+        "skillName":"CSS",
+        "skillBanner":"/images/skills/css.png",
+        "skillExperienceYears":"4 years",
+        "skillExperiencePercent":"80"
+    },
+
+    "4" : {
+        "skillName":"Node JS",
+        "skillBanner":"/images/skills/nodejs.png",
+        "skillExperienceYears":"3 years",
+        "skillExperiencePercent":"80"
+    },
+
+    "5" : {
+        "skillName":"PHP",
+        "skillBanner":"/images/skills/php.png",
+        "skillExperienceYears":"1 year",
+        "skillExperiencePercent":"70"
+    },
+
+    "6" : {
+        "skillName":"Java",
+        "skillBanner":"/images/skills/java.png",
+        "skillExperienceYears":"1 year",
+        "skillExperiencePercent":"30"
+    },
+
+    "7" : {
+        "skillName":"mySQL",
+        "skillBanner":"/images/skills/mysql.png",
+        "skillExperienceYears":"1 year",
+        "skillExperiencePercent":"40"
+    },
+
+    "8" : {
+        "skillName":"Express JS",
+        "skillBanner":"/images/skills/expressjs.png",
+        "skillExperienceYears":"3 years",
+        "skillExperiencePercent":"80"
+    },
+
+    "9" : {
+        "skillName":"Socket.io JS",
+        "skillBanner":"/images/skills/socketio.png",
+        "skillExperienceYears":"1 year",
+        "skillExperiencePercent":"70"
+    }
+}

@@ -1,0 +1,30 @@
+
+@media screen and (max-width:500px) {
+    .contactDiv{
+        width:40px;
+        height:40px;
+    }
+
+    .contactDiv i{
+        font-size:1em;
+    }
+
+    .pageContactsSection{
+        width:var(--width2);;
+        height:fit-content;
+    }
+
+    .pageContactsSection .contentsContainer{
+        width:90%;
+        height:fit-content;
+    
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+
+        margin:10px auto;
+    }
+
+
+}

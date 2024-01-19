@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        body {
+            position: relative;
+            display: block;
+            margin: 0;
+            background: none transparent;
+            overflow: hidden;
+        }
+        object, embed, iframe {
+            margin:  0;
+            padding: 0;
+            background: white;
+            color: white;
+        }
+    </style>
+<body>
+    <div id='iframely-content'>
+        <%- html %>
+    </div>
+    <script type="text/javascript" src="<%= CONFIG.baseStaticUrl %>/js/iframely-utils.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+
+:root{
+    --white:#fff;
+    --editorContainerWidth: 750px;
+
+}
+
+.newBlogContentSection{
+    position: relative;
+    top:0px;
+    bottom:0px;
+
+    width:100vw;
+    height:fit-content;
+    min-height:100vh;
+
+    padding-top:0px;
+
+    display:flex;
+    justify-content: center;
+
+    background:var(--white);
+}
+
+
+.editorForm{
+    position: relative;
+
+    width:var(--editorContainerWidth);
+    height:fit-content;
+} 
+
+.newBlogContentEditor{
+    position: relative;
+
+    width:var(--editorContainerWidth);
+    height:fit-content;
+    min-height:20px;
+
+    font-size:16px;
+
+    margin:0px auto;
+
+    display:none;
+
+    background:var(--white);
+}
+
+
+
+button[title*="Page url:"]{
+    display:none !important;
+}

@@ -1,0 +1,270 @@
+{
+    "title": "Film Theory: How To WIN The Purge",
+    "canonicalIri": "https://www.youtube.com/watch?v=Gi3HnqetpLw",
+    "shortIri": null,
+    "description": "Find out about donating! ► https://bethematch.org/\nSubscribe to not miss a Film Theory! ► http://bit.ly/1dI8VBH    \n\nIn honor of Halloween, I decided to watch The Purge movies and  it got me thinking. If crime was legal for 12 hours like in The Purge movies, how could you come out on top? How can you WIN the Purge? The answer? Get rich of course... but how? I put my brain to the test to figure it out! Theorists, things are about to get VERY messy!\n\nDon't miss a Film Theory! ► http://bit.ly/1dI8VBH  \n\n#ThePurge #Purge #PurgeElectionYear #Purge2 #HowToWin #Scary #Horror #FilmTheory #Matpat\n\nNeed Royalty Free Music for your Content? Try Epidemic Sound.\nGet Your 30 Day Free Trial Now ► http://share.epidemicsound.com/TheFilmTheorists\n\nMORE FILM THEORIES\nThe TRUE STORY of The Conjuring ► https://bit.ly/2Jp62GJ\nWhat Is Us REALLY About? ► https://bit.ly/2MjJjPx\nWhat is the Bird Box Monster? ► https://bit.ly/2ODOCss\nBlair Witch's SECRET DANGER!  ► https://bit.ly/2qhmv7a\nOuija, the Sequel to THE EXORCIST? ► https://bit.ly/2BgE7pd\n\nCredits:\nWriter: Matthew Patrick and Luke Barats\nResearcher: Zach Stewart\nEditors: BanditRants, Koen Verhagen, and Dan \"Cybert\" Seibert\nAssistant Editor: AlyssaBeCrazy\nSound Editor: Yosi Berman\n\nSources:\nhttps://en.wikipedia.org/wiki/International_Convention_for_the_Suppression_of_Counterfeiting_Currency\nhttps://www.ranker.com/list/black-market-organ-cost/april-a-taylor?page=2\nhttps://www.theatlantic.com/national/archive/2011/12/you-can-now-sell-your-bone-marrow-3000/334788/\nhttps://www.giftoflife.org/posts/post/fact-and-fiction-the-truth-about-donating-bone-marrow",
+    "date": "2019-10-19T18:05:21.000Z",
+    "authorName": "The Film Theorists",
+    "authorIri": "https://www.youtube.com/channel/UC3sznuotAs2ohg_U__Jzj_Q",
+    "providerName": "YouTube",
+    "providerIri": null,
+    "rels": {
+            "primary": "player",
+            "technical": [
+                    "html5",
+                    "ssl"
+            ],
+            "source": [
+                    "iframely"
+            ],
+            "unknown": [
+                    "accelerometer",
+                    "clipboard-write",
+                    "encrypted-media",
+                    "gyroscope",
+                    "picture-in-picture",
+                    "web-share"
+            ]
+    },
+    "links": {
+            "players": [
+                    {
+                            "media": {
+                                    "type": "responsive",
+                                    "aspect_ratio": 1.7777777777777777,
+                                    "padding_bottom": null,
+                                    "width": {
+                                            "type": "unbounded"
+                                    },
+                                    "height": {
+                                            "type": "unbounded"
+                                    }
+                            },
+                            "rels": {
+                                    "primary": "player",
+                                    "technical": [
+                                            "html5",
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": [
+                                            "accelerometer",
+                                            "clipboard-write",
+                                            "encrypted-media",
+                                            "gyroscope",
+                                            "picture-in-picture",
+                                            "web-share"
+                                    ]
+                            },
+                            "href": "https://www.youtube.com/embed/Gi3HnqetpLw?rel=0",
+                            "mime_type": "text/html",
+                            "html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/Gi3HnqetpLw?rel=0\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share\"></iframe></div>"
+                    },
+                    {
+                            "media": {
+                                    "type": "responsive",
+                                    "aspect_ratio": 1.7777777777777777,
+                                    "padding_bottom": null,
+                                    "width": {
+                                            "type": "unbounded"
+                                    },
+                                    "height": {
+                                            "type": "unbounded"
+                                    }
+                            },
+                            "rels": {
+                                    "primary": "player",
+                                    "technical": [
+                                            "html5",
+                                            "ssl",
+                                            "autoplay"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": [
+                                            "accelerometer",
+                                            "clipboard-write",
+                                            "encrypted-media",
+                                            "gyroscope",
+                                            "picture-in-picture",
+                                            "web-share"
+                                    ]
+                            },
+                            "href": "https://www.youtube.com/embed/Gi3HnqetpLw?rel=0&autoplay=1",
+                            "mime_type": "text/html",
+                            "html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/Gi3HnqetpLw?rel=0&amp;autoplay=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share; autoplay\"></iframe></div>"
+                    }
+            ],
+            "thumbnails": [
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 1280,
+                                    "height": 720,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "thumbnail",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://i.ytimg.com/vi/Gi3HnqetpLw/maxresdefault.jpg",
+                            "mime_type": "image/jpeg",
+                            "html": "<img src=\"https://i.ytimg.com/vi/Gi3HnqetpLw/maxresdefault.jpg\" />"
+                    },
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 320,
+                                    "height": 180,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "thumbnail",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://i.ytimg.com/vi/Gi3HnqetpLw/mqdefault.jpg",
+                            "mime_type": "image/jpeg",
+                            "html": "<img src=\"https://i.ytimg.com/vi/Gi3HnqetpLw/mqdefault.jpg\" />"
+                    }
+            ],
+            "apps": [],
+            "images": [],
+            "readers": [],
+            "surveys": [],
+            "summary_cards": [],
+            "icons": [
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 144,
+                                    "height": 144,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "icon",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://www.youtube.com/s/desktop/51e20ad6/img/favicon_144x144.png",
+                            "mime_type": "image/png",
+                            "html": "<img src=\"https://www.youtube.com/s/desktop/51e20ad6/img/favicon_144x144.png\" />"
+                    },
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 96,
+                                    "height": 96,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "icon",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://www.youtube.com/s/desktop/51e20ad6/img/favicon_96x96.png",
+                            "mime_type": "image/png",
+                            "html": "<img src=\"https://www.youtube.com/s/desktop/51e20ad6/img/favicon_96x96.png\" />"
+                    },
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 48,
+                                    "height": 48,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "icon",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://www.youtube.com/s/desktop/51e20ad6/img/favicon_48x48.png",
+                            "mime_type": "image/png",
+                            "html": "<img src=\"https://www.youtube.com/s/desktop/51e20ad6/img/favicon_48x48.png\" />"
+                    },
+                    {
+                            "media": {
+                                    "type": "fixed",
+                                    "width": 32,
+                                    "height": 32,
+                                    "padding_bottom": null
+                            },
+                            "rels": {
+                                    "primary": "icon",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": []
+                            },
+                            "href": "https://www.youtube.com/s/desktop/51e20ad6/img/favicon_32x32.png",
+                            "mime_type": "image/png",
+                            "html": "<img src=\"https://www.youtube.com/s/desktop/51e20ad6/img/favicon_32x32.png\" />"
+                    },
+                    {
+                            "media": null,
+                            "rels": {
+                                    "primary": "icon",
+                                    "technical": [
+                                            "ssl"
+                                    ],
+                                    "source": [
+                                            "iframely"
+                                    ],
+                                    "unknown": [
+                                            "shortcut"
+                                    ]
+                            },
+                            "href": "https://www.youtube.com/s/desktop/51e20ad6/img/favicon.ico",
+                            "mime_type": "image/x-icon",
+                            "html": "<img src=\"https://www.youtube.com/s/desktop/51e20ad6/img/favicon.ico\" />"
+                    }
+            ],
+            "logos": [],
+            "promos": [],
+            "files": []
+    },
+    "media": {
+            "type": "responsive",
+            "aspect_ratio": 1.7777777777777777,
+            "padding_bottom": null,
+            "width": {
+                    "type": "unbounded"
+            },
+            "height": {
+                    "type": "unbounded"
+            }
+    },
+    "html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://www.youtube.com/embed/Gi3HnqetpLw?rel=0\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;\"></iframe></div>"
+}

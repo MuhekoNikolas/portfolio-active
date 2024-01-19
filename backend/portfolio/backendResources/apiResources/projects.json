@@ -1,0 +1,71 @@
+{
+    "0":{
+        "projectName":"Soundify",
+        "projectBanner":"/images/projects/soundify.png",
+        "projectDescription":"A music app where you can upload and stream songs for free.",
+        "projectStack": ["PHP", "XAMPP", "SQL", "API", "Javascript", "CSS", "HTML"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/soundify",
+        "projectLivePreviewLink": "http://soundify.smapp.ml/",
+        "projectLivePreviewText": "Live Preview"
+    },
+
+    "1":{
+        "projectName":"Joe Biden Bot",
+        "projectBanner":"/images/projects/joeBiden.png",
+        "projectDescription":"A verified discord bot I created as my first ever project in programming.",
+        "projectStack": ["Python", "API", "Flask"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/Joe-Biden",
+        "projectLivePreviewLink": "https://discord.com/oauth2/authorize?client_id=739799370907779092&permissions=2134207679&scope=bot%20applications.commands",
+        "projectLivePreviewText": "Invite to Server"
+    },
+
+    "2":{
+        "projectName":"Smapp",
+        "projectBanner":"/images/projects/smapp.png",
+        "projectDescription":"A blog-like website where you can write about anything",
+        "projectStack": ["Node", "Javascript", "HTML", "CSS", "Express", "EJS"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/sma",
+        "projectLivePreviewLink": "https://smapp.ml",
+        "projectLivePreviewText": "Live Preview"
+    },
+
+    "3":{
+        "projectName":"Snake Game",
+        "projectBanner":"/images/projects/snakeGame.png",
+        "projectDescription":"A classic snake game where you eat fruits and avoid bombs.",
+        "projectStack": ["Node", "Javascript", "HTML", "CSS", "P5.js", "Express"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/IT2FinalFolder/tree/master/ExpressServers/snakeGame",
+        "projectLivePreviewLink": "https://snake-game.3525nikolas.repl.co/",
+        "projectLivePreviewText": "Live Preview"
+    },
+
+    "4":{
+        "projectName":"Quadtree",
+        "projectBanner":"/images/projects/quadTree.png",
+        "projectDescription":"A simulation that uses the Quad tree algorithm and some physics vehicle behaviours.",
+        "projectStack": ["Node", "Javascript", "HTML", "CSS", "P5.js", "Express"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/IT2FinalFolder/tree/master/ExpressServers/quadTree",
+        "projectLivePreviewLink": "https://quadtree.3525nikolas.repl.co",
+        "projectLivePreviewText": "Live Preview"
+    },
+
+    "5":{
+        "projectName":"Cuesser",
+        "projectBanner":"/images/projects/cuesser.png",
+        "projectDescription":"A tricky game where you have to guess correctly which box the treasure is in.",
+        "projectStack": ["Javascript", "CSS", "HTML", "P5.js"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/IT2FinalFolder/tree/master/HTMLDocuments/IT2TermProjectH1/cuesser",
+        "projectLivePreviewLink": "https://cuesser.3525nikolas.repl.co/",
+        "projectLivePreviewText": "Live Preview"
+    },
+
+    "6":{
+        "projectName":"Fulab Chrome Extension",
+        "projectBanner":"/images/projects/fulabExtension.png",
+        "projectDescription":"A chrome extension made to add extra functionality to fulab.no.",
+        "projectStack": ["Javascript", "Chrome"],
+        "projectSourceCode": "https://github.com/MuhekoNikolas/IT2FinalFolder/tree/master/Extensions/fulabExtension",
+        "projectLivePreviewLink": "https://github.com/MuhekoNikolas/IT2FinalFolder/tree/master/Extensions/fulabExtension",
+        "projectLivePreviewText": "Source Code"
+    }
+}

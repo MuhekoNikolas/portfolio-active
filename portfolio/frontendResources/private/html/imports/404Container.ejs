@@ -1,0 +1,38 @@
+
+
+
+<style>
+    .pageContentContainer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ._404Container{
+        height: fit-content;
+        min-height:200px;
+
+        margin:0px;
+    }
+
+    ._404HeaderText{
+        font-size: 5em;
+        font-weight:500;
+
+        background: -webkit-linear-gradient(#ff0000, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    ._404Text{
+
+    }
+</style>
+
+<div class="_404Container">
+    <h3 class="_404HeaderText">
+        <%=errorCode%>
+    </h3>
+    <p class="_404Text"><%=errorMessage%></p>
+</div>

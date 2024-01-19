@@ -1,0 +1,92 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="/images/logo.png">
+        <title>Muheko Nikolas - Blogs</title>
+
+        <link rel="stylesheet" href="/css/pc/portfolio/main.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/home.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/blogs.css">
+
+        <link rel="stylesheet" href="/css/mobile/portfolio/main.css">
+        <link rel="stylesheet" href="/css/mobile/portfolio/home.css">
+
+
+
+        <link rel="stylesheet" href="/css/pc/blogs/main.css">
+        <link rel="stylesheet" href="/css/pc/blogs/home.css">
+        <link rel="stylesheet" href="/css/pc/blogs/topPicks.css">
+        <link rel="stylesheet" href="/css/pc/blogs/blogsAndTags.css">
+        <link rel="stylesheet" href="/css/pc/blogs/loginAndSignupFormsContainer.css">
+        <link rel="stylesheet" href="/css/pc/blogs/newBlog.css">
+
+        <link rel="stylesheet" href="/css/mobile/portfolio/mobile470width.css">
+        <link rel="stylesheet" href="/js/dependencies/toastify/min.css">
+        <link rel="stylesheet" href="/js/dependencies/prism/prism.css">
+        <link rel="stylesheet" href="/js/dependencies/hljs/min.css">
+
+        
+        <script src="/js/dependencies/domPurify.js" defer></script>
+        <script src="/js/dependencies/jquery.js" defer></script>
+        <!-- <script src="https://cdn.tiny.cloud/1/awomex6nytuhpx95m7f6tekbprip70jzyz6amu8vpzbyulav/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script> -->
+        <script src="/js/dependencies/tinyMce/tinyEditor.js" referrerpolicy="origin" defer></script> 
+        <script src="/js/dependencies/toastify/min.js" defer></script>
+        <script src="/js/dependencies/prism/prism.js" defer></script>
+        <script src="/js/dependencies/hljs/hljs.js" defer></script>
+        
+
+        <script src="/js/blogs/mainWrite.js" defer></script>
+        <script src="/js/blogs/classes.js" defer></script>
+        <script src="/js/blogs/classesBlog.js" defer></script>
+        <script src="/js/blogs/script.js" defer></script>
+        <script src="/js/blogs/scriptWrite.js" defer></script>
+        <script src="/js/blogs/observers.js" defer></script>
+
+        <!-- <script src="/js/dependencies/embedScripts/twitterWidgets.js" defer></script>
+     -->
+
+        <script src="https://kit.fontawesome.com/49ac55f315.js" crossorigin="anonymous"></script>
+
+
+        <style>
+            h1, h2, h3, h4, h5, h6, span, p{
+                margin:0px;
+
+                font-family: var(--font);
+            }
+        </style>
+    </head>
+    <body>
+
+        <%-include('./imports/loginAndSignupFormsContainer.ejs')%>
+
+        <div id="mainWrapper">
+            <div class="topGradientBanner"></div>
+
+            <%-include('./imports/blogsNavMenu.ejs')%>
+            <%-include('./imports/blogsTopBar.ejs')%>
+
+
+            <div class="newBlogContentSection">
+
+                <form method="POST" data-blogId='<%=req.pageBlog.id%>' data-blogTitle='<%=req.pageBlog.title || ""%>' data-blogDescription='<%=req.pageBlog.description || ""%>' data-blogBanner='<%=req.pageBlog.banner || ""%>' onsubmit="return false" class="editorForm">
+                    <div class="newBlogContentEditor">
+                        <%-req.pageBlog.content%>
+                    </div>
+                    <button name="submitbtn" style="display:none;"></button>
+                </form>
+            
+            </div>
+
+
+        </div>
+    </body>
+</html>

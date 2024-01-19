@@ -1,0 +1,53 @@
+
+
+<div class="loginFormContainer">
+    <div class="loginFormContainerCloseButton">
+        <h3>x</h3>
+    </div>
+
+    <div class="loginFormContainerContentsSection">
+        <h3 class="loginFormContainerTitle">
+            Welcome back
+        </h3>
+        <div class="loginFormButtonsContainer">
+            <a href="/auth/google">
+                <div class="loginButtonContainer">
+                    <div class="loginButtonContainerLogo google"></div>
+                    <h3 class="loginButtonContainerText">Login with Google</h3>
+                </div>
+            </a>
+
+            <a href="/auth/twitter">
+                <div class="loginButtonContainer">
+                    <div class="loginButtonContainerLogo twitter"></div>
+                    <h3 class="loginButtonContainerText">Login with Twitter</h3>
+                </div>
+            </a>
+
+            <a href="/auth/facebook">
+                <div class="loginButtonContainer">
+                    <div class="loginButtonContainerLogo facebook"></div>
+                    <h3 class="loginButtonContainerText">Login with Facebook</h3>
+                </div>
+            </a>
+
+            <a href="/auth/github">
+                <div class="loginButtonContainer">
+                    <div class="loginButtonContainerLogo github"></div>
+                    <h3 class="loginButtonContainerText">Login with Github</h3>
+                </div>
+            </a>
+
+            <a href="/auth/discord">
+                <div class="loginButtonContainer">
+                    <div class="loginButtonContainerLogo discord"></div>
+                    <h3 class="loginButtonContainerText">Login with Discord</h3>
+                </div>
+            </a>
+        </div>
+        <div class="otherOptionContainer">
+
+            <h3 class="otherOption">No account? <a href="/blogs/signup" class="otherOptionAnchor noRedirect" <% if( typeof(signupPageLink) !="undefined"){ %> href="<%=signupPageLink%>" <%}else{%> onclick="showSingupForm()" <%}%> >Create one</a></h3>
+        </div>
+    </div>
+</div>

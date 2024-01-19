@@ -1,0 +1,4 @@
+
+
+When working on the blog writing page, use this idea:
+    - Create a block that trails downwards, with this block, you can find options to add images, text, videos, etc. When you enable this option, the trailing block is replaced by the option you selected and the trailing block is put downwards
