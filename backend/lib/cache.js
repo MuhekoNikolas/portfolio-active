@@ -1,20 +1,24 @@
     import CONFIG from '../config.loader.js';
+    import path from 'path';
 
     var DEFAULT_CACHE = "node-cache";
 
     export const cache = {};
 
-    async function setCachingEngine(path) {
+    async function setCachingEngine(_path) {
         try {
 
-            if (path.indexOf('/') === -1) {
+            if (_path.indexOf('/') === -1) {
                 // Not full path.
-                path = `./cache-engines/${path}.js`;
+                var currentModuleURL = new URL(import.meta.url);
+                var currentModulePath = path.dirname(currentModuleURL.pathname);
+                var _path = (path.join(currentModulePath, 'cache-engines', `${_path}.js`)).replace("\\", "/") //`./cache-engines/${path}.js`;
+                console.log(currentModulePath, _path, "ooooooooooooooooo") 
             }
 
-            var id = path.split('/').slice(-1)[0].replace(/\.js$/, '');
+            var id = _path.split('/').slice(-1)[0].replace(/\.js$/, '');
 
-            var cache_engine = await import(path);
+            var cache_engine = await import(_path);
 
             if (!cache_engine.set || !cache_engine.get) {
                 console.warn("Default cache engine used. No get and set methods in cache engine", id);
@@ -38,7 +42,7 @@
             console.log("Using cache engine:", id);
 
         } catch (ex) {
-            if (path.indexOf(DEFAULT_CACHE) > -1) {
+            if (_path.indexOf(DEFAULT_CACHE) > -1) {
                 throw ex;
             } else {
                 console.warn("Default cache engine used. Check CONFIG.CACHE_ENGINE. ", ex.stack);
