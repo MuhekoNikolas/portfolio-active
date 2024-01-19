@@ -55,7 +55,12 @@ function generateSkillPreviewBoxes(){
                     </div>
                     <div class="skillBlockProgressSection">
                         <div class="progressBarSection">
-                            <progress value="${_skillInfo.skillExperiencePercent}" max="100"></progress>
+                            
+                            <div class="progress progressBarSection">
+                                <div class="progress-bar" role="progressbar" style="width: ${_skillInfo.skillExperiencePercent}%; height:100%; background:cyan;" aria-valuenow="${_skillInfo.skillExperiencePercent}" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <!--<progress value="${_skillInfo.skillExperiencePercent}" max="100"></progress>-->
                         </div>
                         <div class="progressSectionInfo">
                             <div class="progressExperienceInfo">
