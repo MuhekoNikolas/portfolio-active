@@ -9,7 +9,7 @@
 
             if (path.indexOf('/') === -1) {
                 // Not full path.
-                path = './cache-engines/' + path + '.js';
+                path = `./cache-engines/${path}.js`;
             }
 
             var id = path.split('/').slice(-1)[0].replace(/\.js$/, '');
