@@ -10,7 +10,7 @@
     
     import { readFile } from 'fs/promises';
 
-    const json = JSON.parse(fs.readFileSync('./package.json'))
+    const json = {version: "0.2.9"} //JSON.parse(fs.readFileSync('./package.json'))
 
     var version = json.version;
 
