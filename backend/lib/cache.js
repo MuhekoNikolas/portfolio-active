@@ -12,7 +12,8 @@
                 // Not full path.
                 var currentModuleURL = new URL(import.meta.url);
                 var currentModulePath = path.dirname(currentModuleURL.pathname);
-                var _path = (path.join(currentModulePath, 'cache-engines', `${_path}.js`)).replace("\\", "/") //`./cache-engines/${path}.js`;
+                var _path = `${currentModulePath}/cache-engines/${_path}.js`
+                
                 console.log(currentModulePath, _path, "ooooooooooooooooo") 
             }
 
