@@ -1,0 +1,137 @@
+
+
+.pageContactsSection{
+    position:relative;
+
+    width:calc( var(--width2) + 350px );;
+    height:fit-content;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:start;
+
+    margin:0px auto;
+    margin-top:0px;
+
+    padding:10px;
+    padding-bottom:50px;
+
+    background:none;
+}
+
+.pageContactsSection .sectionTitle{
+    margin-right:auto;
+}
+
+.pageContactsSection .contentsContainer{
+    width:90%;
+    height:fit-content;
+
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap:10px;
+    justify-items:center;
+    align-content:center;
+
+    margin:0px auto;
+    margin-top:10px;
+
+    background:none;
+}
+
+.contentsContainer a{
+    text-decoration:none;
+}
+
+.contactDiv{
+    position:relative;
+
+    width:50px;
+    height:50px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50px;
+    border:1px solid var(--pink);
+
+    background:var(--c2);
+}
+
+.contactDiv i{
+    color:initial;
+    font-size:2em;
+}
+
+.pageContactObjectDiv{
+    position:relative;
+
+    width:100%;
+    height:80px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius:8px;
+
+    background:var(--c2);
+}
+
+.pageContactObjectDiv .contactHead{
+    width:90%;
+    height:45px;
+
+    display:flex;
+    column-gap:5px;
+    align-items: center;
+
+    color:var(--white);
+    font-family:var(--font);
+
+    background:none;
+}
+
+.pageContactObjectDiv .contactHead .contactHeadIcon{
+    width:fit-content;
+    height:35px;
+    min-width:10px;
+    min-height:35px;
+    max-width:35px;
+    max-height:35px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background:none;
+}
+
+.contactHeadIcon svg{
+    fill: var(--white);
+}
+
+.contactHeadIcon > *{
+    width:23px;
+    height:23px;
+    min-width:23px;
+    min-height:23px;
+    max-width:23px;
+    max-height:23px;
+}
+
+.contactUsername{
+    width:90%;
+    height:fit-content;
+    max-height:40px;
+
+    color:var(--white);
+    color:gray;
+    font-weight:500;
+    font-family:var(--font);
+
+    background:none;
+}

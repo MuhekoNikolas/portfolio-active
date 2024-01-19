@@ -1,0 +1,28 @@
+
+
+@media screen and (max-width:500px) {
+
+    #pageProjectsSection{
+        width: calc( var(--width2) - 25px ) ;
+    }
+
+    #pageProjectsSection .sectionTitle{
+        margin-top:0px;
+        margin-bottom:10px;
+    }
+
+
+
+    .projectShowCaseInfoSectionTitle h3{
+        font-size:1.4em;
+    }
+
+
+    .projectShowCaseInfoSectionStack > .stack{
+
+        height:15px;
+
+        font-size:.7em;
+    }
+
+}

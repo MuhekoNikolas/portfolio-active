@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="/images/logo.png">
+        <title>Muheko Nikolas</title>
+
+        <link rel="stylesheet" href="/css/pc/portfolio/main.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/home.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/aboutAndSkill.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/projects.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/blogs.css">
+        <link rel="stylesheet" href="/css/pc/portfolio/contact.css">
+
+        <link rel="stylesheet" href="/css/mobile/portfolio/main.css">
+        <link rel="stylesheet" href="/css/mobile/portfolio/home.css">
+        <link rel="stylesheet" href="/css/mobile/portfolio/aboutAndSkill.css">
+        <link rel="stylesheet" href="/css/mobile/portfolio/projects.css">
+        <link rel="stylesheet" href="/css/mobile/portfolio/contact.css">
+
+        <link rel="stylesheet" href="/css/mobile/portfolio/mobile470width.css">
+
+        <script src="/js/portfolio/classes.js" defer></script>
+        <script src="/js/portfolio/main.js" defer></script>
+        <script src="/js/portfolio/scripts.js" defer></script>
+        <script src="/js/portfolio/observers.js" defer></script>
+        <script src="https://kit.fontawesome.com/49ac55f315.js" crossorigin="anonymous"></script>
+
+        <style>
+            h1, h2, h3, h4, h5, h6, span, p{
+                margin:0px;
+
+                font-family: var(--font);
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <div id="mainWrapper">
+            <div class="topGradientBanner"></div>
+            <a class="scrollToTopButton" href="#topBar" style="display:flex; justify-content:center; align-items:center; color:var(--white); font-size:2em; text-decoration:none; text-align:center; border:1px solid var(--white);">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+
+            <div class="bioContainer" id="bioContainer">
+                <div class="contents">
+                    <p class="portfolioOwnerBio"></p>
+                    <div class="button" onclick="manageBioDiv()"><h3>Close <i class="fa-solid fa-close"></i></h3></div>
+                </div>
+            </div>
+
+            <div class="navMenuContainer" id="navMenuContainer">
+                <div class="contents">
+                    <div class="links">
+                        <a href="#pageAboutSection">
+                            <h3>About me</h3>
+                        </a>
+                        <a href="#pageSkillsSection">
+                            <h3>Skills</h3>
+                        </a>
+                        <a href="#pageProjectsSection">
+                            <h3>Projects</h3>
+                        </a>
+                        <a href="#pageContactsSection">
+                            <h3>Contact</h3>
+                        </a>
+                        <a href="/blogs">
+                            <h3>Blogs</h3>
+                        </a>
+                    </div>
+                    <div class="button" onclick="manageSideMenuDiv()"><h3>Close <i class="fa-solid fa-close"></i></h3></div>
+                </div>
+            </div>
+
+            <div class="topBar pageSection" id="topBar">
+                <div class="topBarLogoSection">
+                    <div class="topBarLogo" style="cursor:pointer;" onclick="location.href = '/'"></div>
+                </div>
+
+                <div class="topBarLinksSection">
+                        <a href="#pageAboutSection">
+                            <h3>About</h3>
+                        </a>
+                        <a href="#pageSkillsSection">
+                            <h3>Skills</h3>
+                        </a>
+                        <a href="#pageProjectsSection">
+                            <h3>Projects</h3>
+                        </a>
+                        <a href="#pageContactsSection">
+                            <h3>Contact</h3>
+                        </a>
+                        <a href="/blogs">
+                            <h3>Blogs</h3>
+                        </a>
+                </div>
+
+                
+                <div class="topBarButtonsSection">
+
+                    <div class="topBarThemeButton button" data-theme="dark" onclick="manageColorTheme()">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+
+                    <div class="topBarMenuButton button" onclick="manageSideMenuDiv()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pageHomeSection" class="pageHomeSection pageSection">
+                <div class="homeSectionCenterDiv">
+                    <div class="homeSectionCenterDivPfp"></div>
+                    <div class="homeSectionCenterDivBio">
+                        <div class="homeSectionCenterDivBioBlocksSection">
+                            <div class="homeSectionCenterDivBioBlocks first">
+                                <h3> Hi, I am, </h3>
+                            </div>
+                            <div class="homeSectionCenterDivBioBlocks second">
+                                <h3 class="portfolioOwnerName"></h3>
+                            </div>
+                            <div class="homeSectionCenterDivBioBlocks third">
+                                <h3 style="display:flex; gap:5px;"> I am <span class="homeSectionCenterDivBioSkillsSpan"></span> <p class="cursor">i</p> </h3>
+                            </div>
+                        </div>
+
+                        <a href="#pageAboutSection" style="text-decoration:none; display:block; width:fit-content !important; height:fit-content !important;">
+                            <div class="homeSectionCenterDivHeroButton button">
+                                <p>About me</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="homeSectionPcPageOwnerPfp"></div>
+                </div>
+
+                <a href="#pageAboutSection" style="text-decoration:none;">
+                    <div class="button homeScrollDownButton">Scroll down!</div>
+                </a>
+
+            </div>
+
+            <div class="pageAboutAndSkillsSection pageSection">
+                <div id="pageAboutSection">
+                    <div class="sectionTitle">
+                        <h4>About:</h4>
+                    </div>
+                    <div class="pageAboutSectionContentsContainer">
+                        <div class="pageAboutSectionBio">
+                            <h3 class="pageAboutSectionBioTopic">
+                                <span class="title">Name: </span>
+                                <span class="body portfolioOwnerName"></span>
+                            </h3>
+
+                            <h3 class="pageAboutSectionBioTopic">
+                                <span class="title">Age: </span>
+                                <span class="body portfolioOwnerAge"></span>
+                            </h3>
+
+                            
+                            <h3 class="pageAboutSectionBioTopic">
+                                <span class="title">Bio: </span>
+                                <span class="body portfolioOwnerBio clamped-text">
+                                    
+                                </span>
+                                <span style="display:flex; color:var(--pink); width:fit-content; height:fit-content; padding:0px 14px !important;" class="button" onclick="manageBioDiv()">Read more</span>
+                            </h3>
+                        </div>
+                        <!-- <div class="pageAboutSectionPfp">
+                            
+                        </div> -->
+                    </div>
+                </div>
+
+                <div id="pageSkillsSection">
+                    <div class="sectionTitle">
+                        <h4>Skills:</h4>
+                    </div>
+                    <div class="pageSkillsSectionContentsContainer">
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pageProjectsSection" class="pageProjectsSection pageSection">
+                <div class="sectionTitle">
+                    <h4>Projects:</h4>
+                </div>
+                <div class="projectsSlideShow">
+                    
+                </div>
+            </div>
+
+
+            <!-- <div class="pageBlogsSection pageSection" id="pageBlogsSection">
+                <div class="sectionTitle">
+                    <h4>Blogs:</h4>
+                </div>
+
+                <div class="contentsContainer">
+
+                </div>
+            </div> -->
+
+
+            <div class="pageContactsSection pageSection" id="pageContactsSection">
+                <div class="sectionTitle">
+                    <h4>Contact:</h4>
+                </div>
+
+                <div class="contentsContainer">
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

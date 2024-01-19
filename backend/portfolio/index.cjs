@@ -22,7 +22,7 @@ function initPortfolio(app){
 
     app.set('view engine', 'ejs');
 
-    app.set('views', __dirname+"/frontendResources/private/html");
+    app.set('views', __dirname+"/frontendResources/private/html");;
 
     passportJS(app, DB)
 

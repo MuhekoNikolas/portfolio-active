@@ -1,0 +1,297 @@
+
+
+.pageAboutAndSkillsSection{
+    position:relative;
+    --firstWid: var(--width2) ;
+
+    width: calc( var(--width2) + 300px );
+
+    display:grid;
+    grid-gap:2%;
+    margin:0px auto;
+    grid-template-columns: var(--firstWid) 370px;
+    justify-content:center;
+}
+
+.pageAboutAndSkillsSection > div {
+    position:relative;
+
+    border-radius:10px;
+
+    padding:12px 16px;
+
+    background: var(--c2)
+}
+
+#pageAboutSection{
+    opacity:0.2;
+}
+
+#pageAboutSection.showBio{
+    opacity:1;
+}
+
+
+.sectionTitle {
+    position:relative;
+
+    width:90px;
+    height:45px;
+
+    display:block;
+    margin-left:5px;
+    margin-top:0px;
+
+    padding:0px 5px !important;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px 10px 5px 5px;
+
+    background:var(--c3)
+}
+
+.sectionTitle:before{
+    content:"";
+    position:relative;
+    top:0px;
+    left:-5px;
+
+    margin:50% 0px;
+
+    width:15px;
+    height:3px;
+
+    background:var(--cyan);
+}
+
+.sectionTitle h4{
+    position:relative;
+    top:0px;
+
+    color:var(--darkWhite2);
+    text-align:center;
+    font-size:1.4em;
+    font-weight:400;
+    font-family:var(--font);
+}
+
+.pageAboutSectionContentsContainer{
+    position:relative;
+    top:0px;
+
+    display:grid;
+    grid-template-columns:95%;
+
+    width:100%;
+    height: calc( 100% - 50px );
+}
+
+.pageAboutSectionContentsContainer > div{
+    position:relative;
+
+    width:100%;
+    height:425px;
+
+    border-radius:10px;
+
+}
+
+.pageAboutSectionBio{
+    width:500px;
+    background:none;
+}
+
+.pageAboutSectionBioTopic{
+    font-family:var(--font);
+
+    display:block;
+    margin-bottom:-40px;
+    margin-left:10px;
+}
+
+.pageAboutSectionBioTopic:not(.pageAboutSectionBioTopic:first-child){
+    margin-top:50px;
+}
+
+.pageAboutSectionBioTopic .title{
+    color:var(--darkWhite3)
+}
+
+.pageAboutSectionBioTopic .body{
+    width:fit-content;
+    max-width: calc( var(--width2) - 25px );
+    white-space:pre-wrap;
+
+    font-weight:400;
+    color:var(--white)
+}
+
+.clamped-text {
+    overflow: hidden;
+    display: -webkit-box;
+
+    -webkit-line-clamp: 21; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    word-break: break-word; /* Ensure long words are broken properly */
+}
+
+/* .pageAboutSectionPfp{
+    position:relative;
+    right:10px;
+
+    width:180px !important;
+    height: calc( 100% - 50px);
+
+    margin-bottom:10px;
+
+    border-radius:10px !important;
+
+    background:url('/images/pfp2.svg');
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+} */
+
+.pageSkillsSectionContentsContainer{
+    position:relative;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:100%;
+    height:85%;
+
+    background:none;
+}
+
+
+.skillBlock{
+    position:relative;
+
+    width:300px;
+    height:70px;
+
+    display:flex;
+    margin:7px auto;
+
+    border-radius:10px;
+
+    opacity:0.2;
+
+    box-shadow: 2px 4px 10px var(--c1), inset 0px 1px 1px rgb(74, 73, 73);
+
+    background:var(--c4);
+}
+
+.showSkill, .showProject{
+    opacity:1 !important;
+}
+
+/* .skillBlock:nth-child(odd){ */
+.skillBlock:focus-visible, .skillBlock:hover{
+    border:1px solid var(--pink);
+}
+
+.skillBlockBannerSection{
+    position:relative;
+
+    width:80px;
+    height:70px;
+}
+
+.skillBlockBanner{
+    position:relative;
+    top:0px;
+    left:0px;
+
+    width:40px;
+    height:40px;
+
+    margin:4px auto;
+
+    border:1px solid var(--pink);
+    border-radius:50%;
+
+    background:url('/images/logo.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.skillBlockTitle{
+    color:var(--darkWhite1);
+    text-align:center;
+    font-size: .8em;
+    font-family:var(--font);
+}
+
+.skillBlockProgressSection{
+    position:relative;
+
+    width: 220px;
+    height:70px;
+}
+
+.progressBarSection{
+
+    margin-top:15px;
+
+    height:15px;
+}
+
+.progressBarSection progress {
+    width:200px;
+
+    accent-color: var(--pink);
+}
+
+.progressSectionInfo{
+    position:relative;
+    
+    left:0px;
+
+    width:200px;
+    height:30px;
+
+    display:flex;
+    align-items: center;
+    
+    font-family:var(--font);
+    font-size: .8em;
+}
+
+.progressSectionInfo .progressExperienceInfo{
+    margin-right:auto;
+}
+
+.progressSectionInfo .progressKnowledgeInfo{
+    margin-left:auto;
+}
+
+.progressSectionInfo .progressExperienceInfo h4, .progressSectionInfo .progressKnowledgeInfo h4{
+    position:relative;
+
+    font-weight:500;
+}
+
+.progressSectionInfo .progressExperienceInfo h4{
+    color:var(--darkWhite3);
+}
+
+.progressSectionInfo .progressExperienceInfo h4 span{
+    color:var(--white);
+    font-weight:200;
+}
+
+.progressSectionInfo .progressKnowledgeInfo h4{
+    position:relative;
+    top:0px;
+
+    color:var(--white);
+    font-size:1.2em;
+}

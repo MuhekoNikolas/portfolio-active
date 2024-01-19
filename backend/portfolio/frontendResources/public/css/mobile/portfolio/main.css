@@ -1,0 +1,44 @@
+
+
+@media screen and (max-width:500px) {
+    #mainWrapper{
+        --width:95vw;
+        --width2:450px;
+    }
+
+    .topBarLogoSection{
+        width:180px !important;
+        margin-left:0px !important;
+    }
+
+    .topBarLogo{
+        transform:scale(1.4);
+    }
+
+    .topBarLinksSection{
+        display:none;
+    }
+
+    .topBarButtonsSection{
+        display:flex;
+        margin-right:-5px !important;
+    }
+
+    .topBarButtonsSection .button{
+        font-size:1.8em;
+    }
+
+    .topBarMenuButton{
+        display:flex !important;
+    }
+
+
+    .navMenuContainer{
+        width:90%;
+        max-width:400px;
+    }
+
+    .navMenuContainer .contents{
+        margin-top:200px; 
+    }
+}

@@ -1,0 +1,6 @@
+
+
+<div class="loginAndSignupFormsContainer <%if( typeof(loginParam) != "undefined"){%>visible showLoginFormContainer<%}else if(typeof(signupParam)!="undefined"){%>visible showSignupFormContainer<%}else{%>showLoginFormContainer<%}%>" >
+    <%-include('./loginForm.ejs')%>
+    <%-include('./signupForm.ejs')%>
+</div>

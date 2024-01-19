@@ -4,7 +4,7 @@ import { cacheMiddleware, NotFound } from './utils.js';
 import CONFIG from './config.loader.js';
 import apiViews from './modules/api/views.js';
 import debugViews from './modules/debug/views.js';
-//import initPortfolio from './portfolio/index.cjs';
+import initPortfolio from './portfolio/index.cjs';
 
 
 
@@ -71,7 +71,7 @@ if (CONFIG.tests) {
 app.use(logErrors);
 app.use(errorHandler);
 
-//initPortfolio(app)
+initPortfolio(app)
 
 
 
