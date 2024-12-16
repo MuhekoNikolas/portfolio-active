@@ -132,7 +132,7 @@
 
 .homeSectionCenterDivBioBlocks.first{
     margin-left:100px;
-    margin-bottom:-60px;
+    margin-bottom: 0px;
     padding-right:50px;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .homeSectionCenterDivBioBlocks.third{
-    margin-left:70%;
+    margin-left:100px;
     white-space:nowrap !important;
 }
 
@@ -169,6 +169,8 @@
     position:relative;
     top:0px;
 
+    line-height: 15px;
+
     color: var(--white);
     font-weight:400;
     font-family:var(--font);
@@ -177,8 +179,11 @@
 }
 
 .homeSectionCenterDivBioBlocks.second h3{
-    font-size:90px;
     font-weight:550;
+
+    height: auto;
+    font-size: 80px;
+    line-height: 80px;
 }
 
 .homeSectionCenterDivBioBlocks.second h3 .profileOwnerNameStyled{

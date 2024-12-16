@@ -105,7 +105,7 @@ body{
 
 .button{
     position:relative;
-    border-radius:13px;
+    border-radius:.3rem;
 
     box-shadow: 2px 4px 10px var(--c1), inset 0px 1px 1px rgb(74, 73, 73);
 
