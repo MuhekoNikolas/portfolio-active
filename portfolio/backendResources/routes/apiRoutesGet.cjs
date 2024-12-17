@@ -64,6 +64,7 @@ module.exports = function(app, DB){
 
 
     app.get("/api/blogs/users/:userId", (req,resp)=>{
+        _DB = DB.DBPool.getRandomDB()
         userId = req.params.userId 
         foundUser = functions.findUser(_DB, 'id=?', userId)
 
