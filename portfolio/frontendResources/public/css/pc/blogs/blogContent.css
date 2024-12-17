@@ -10,14 +10,45 @@
 #tinymce *, #articlePreview *{
     position:relative;
 
-    /* max-width: calc( var(--editorContainerWidth) - 30px ); */
+    max-width: calc( var(--editorContainerWidth) - 30px );
 
     /* overflow:hidden;
     overflow-y:visible; */
 }
 
-#tinymce img, #articlePreview img{
+/* #tinymce img, #articlePreview img, #tinymce iframe, #articlePreview iframe{
+    display: flex;
+    margin: 0px auto;
+} */
+
+/* #tinymce img, #articlePreview img{
     margin:5px;
+} */
+
+#tinymce table, #articlePreview table {
+    border-radius: .5rem;
+    overflow:hidden;
+    background: none;
+}
+
+#tinymce table tr, #articlePreview table tr {
+    border-collapse: collapse;
+    border-radius: .5rem;
+    border: none;
+}
+
+#tinymce table td, #articlePreview table td {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+#tinymce table tr:nth-of-type(1), #articlePreview table tr:nth-of-type(1){
+    background: #e1ece1;
+}
+
+#tinymce table tr:nth-of-type(2), #articlePreview table tr:nth-of-type(2){
+    background: #e3e3f7;
 }
 
 #tinymce :is(code, pre), #articlePreview :is(code, pre){

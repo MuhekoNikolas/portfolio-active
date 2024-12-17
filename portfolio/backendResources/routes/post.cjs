@@ -13,7 +13,7 @@ functions = require("../functions.cjs")
 
 const window = new JSDOM('').window;
 const DOMPurify = _DOMPurify(window);
-
+const DOMPurifyExtra = {tags: ["iframe"], attrs: ['allow', 'allowfullscreen', 'frameborder', 'scrolling']}
 
 module.exports = async function(app, passport=null, DB){
 
@@ -61,7 +61,7 @@ module.exports = async function(app, passport=null, DB){
 
         } else {
             if(req.loggedInUser.id == thisPageDraft.author_id){
-                content = DOMPurify.sanitize(content)
+                content = DOMPurify.sanitize(content, {ADD_TAGS: DOMPurifyExtra.tags, ADD_ATTR: DOMPurifyExtra.attrs})
                 savedDraft = functions.saveDraft(DB, thisPageDraft.id, content )
                 req.pageBlog = thisPageDraft
                 obj = {
@@ -104,7 +104,7 @@ module.exports = async function(app, passport=null, DB){
 
         } else {
             if(req.loggedInUser.id == thisPageArticleDraft.author_id){
-                content = DOMPurify.sanitize(content)
+                content = DOMPurify.sanitize(content, {ADD_TAGS: DOMPurifyExtra.tags, ADD_ATTR: DOMPurifyExtra.attrs})
                 savedDraft = functions.saveArticleDraft(DB, thisPageArticleDraft.id, content )
                 req.pageBlog = thisPageArticleDraft
                 obj = {
@@ -166,7 +166,7 @@ module.exports = async function(app, passport=null, DB){
                 resp.json(JSON.stringify(obj))
                 return
             } else {
-                if(DOMPurify.sanitize(thisPageDraft.content, {USE_PROFILES: {html: false}}).length <= 10){
+                if(DOMPurify.sanitize(thisPageDraft.content, {USE_PROFILES: {html: false}, ADD_TAGS: DOMPurifyExtra.tags, ADD_ATTR: DOMPurifyExtra.attrs}).length <= 10){
                     obj = {
                         success: false,
                         message: "The blog's content must be longer than 10 characters."
@@ -240,7 +240,7 @@ module.exports = async function(app, passport=null, DB){
 
         try{
             
-            if(DOMPurify.sanitize(thisFoundArticleDraft.content, {USE_PROFILES: {html: false}}).length <= 10){
+            if(DOMPurify.sanitize(thisFoundArticleDraft.content, {USE_PROFILES: {html: false}, ADD_TAGS: DOMPurifyExtra.tags, ADD_ATTR: DOMPurifyExtra.attrs}).length <= 10){
                 obj = {
                     success: false,
                     message: "The blog's content must be longer than 10 characters."

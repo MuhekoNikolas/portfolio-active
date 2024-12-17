@@ -310,6 +310,10 @@
     background:var(--pink);
 }
 
+.projectShowCasePreviewButton.button h3 {
+    font-size: 15px;
+}
+
 .projectShowCaseSourceCodeButton{
     width:40px !important;
     color:var(--pink) !important;

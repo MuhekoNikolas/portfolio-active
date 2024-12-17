@@ -54,7 +54,7 @@
 
 
     .skillBlock{
-        width: calc( var(--width2) - 50px )  
+        /* width: calc( var(--width2) - 50px );   */
     }
 
     .skillBlock:focus-visible, .skillBlock:hover{

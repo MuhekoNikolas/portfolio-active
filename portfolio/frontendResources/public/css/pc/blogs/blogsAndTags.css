@@ -228,10 +228,11 @@
 
 .blogSearchInputLabel{
     position: relative;
-    left: calc( -100% - 20px ) ;
+    top: -2px;
+    left: calc( -100% - 44px ) ;
 
     width:fit-content;
-    min-width: calc( 100% - 12px );
+    min-width: calc( 100% + 17px );
     max-width:100%;
     height: calc( var(--inputHeight) - .7px ) ;
 
@@ -249,13 +250,17 @@
 
     cursor:text;
 
+    z-index: 2;
+
     background:#f2e5e7;
     /* background:transparent; */
+
+    margin-bottom: 0px !important;
 }
 
 .blogSearchSectionButton{
     position:relative;
-    top:0px;
+    top:-3px;
     left:1px;
 
     display:flex;
